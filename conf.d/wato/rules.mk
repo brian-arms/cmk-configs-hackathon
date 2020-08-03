@@ -10,7 +10,7 @@ active_checks['cmk_inv'] = [
 active_checks.setdefault('http', [])
 
 active_checks['http'] = [
-{'condition': {'host_name': ['localhost']},
+{'condition': {'host_name': ['localhost'], 'host_tags': {'service': 'cmk'}},
  'value': {'host': {'address': 'brianarms.com'},
            'mode': ('url', {'ssl': 'auto'}),
            'name': u'brianarms.com'}},
