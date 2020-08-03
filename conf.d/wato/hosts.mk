@@ -9,6 +9,7 @@ host_tags.update({'localhost': {'address_family': 'ip-v4-only',
                'ip-v4': 'ip-v4',
                'networking': 'lan',
                'piggyback': 'auto-piggyback',
+               'service': 'unknown',
                'site': 'cmk',
                'snmp_ds': 'no-snmp',
                'tcp': 'tcp'}})
