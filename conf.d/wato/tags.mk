@@ -1,0 +1,3 @@
+# Written by Check_MK store (2020-08-03 13:34:03)
+
+tag_config.update({'aux_tags': [], 'tag_groups': [{'tags': [{'aux_tags': [], 'id': 'prod', 'title': u'Productive system'}, {'aux_tags': [], 'id': 'critical', 'title': u'Business critical'}, {'aux_tags': [], 'id': 'test', 'title': u'Test system'}, {'aux_tags': [], 'id': 'offline', 'title': u'Do not monitor this host'}], 'id': 'criticality', 'title': u'Criticality'}, {'tags': [{'aux_tags': [], 'id': 'lan', 'title': u'Local network (low latency)'}, {'aux_tags': [], 'id': 'wan', 'title': u'WAN (high latency)'}, {'aux_tags': [], 'id': 'dmz', 'title': u'DMZ (low latency, secure access)'}], 'id': 'networking', 'title': u'Networking Segment'}]})
