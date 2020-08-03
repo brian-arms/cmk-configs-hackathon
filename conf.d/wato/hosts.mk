@@ -5,11 +5,11 @@ all_hosts += ['localhost']
 
 host_tags.update({'localhost': {'address_family': 'ip-v4-only',
                'agent': 'cmk-agent',
-               'criticality': 'offline',
+               'criticality': 'test',
                'ip-v4': 'ip-v4',
                'networking': 'lan',
                'piggyback': 'auto-piggyback',
-               'service': 'cmk',
+               'service': 'unknown',
                'site': 'cmk',
                'snmp_ds': 'no-snmp',
                'tcp': 'tcp'}})
@@ -22,5 +22,5 @@ host_attributes.update(
                           u'more labels': u'and more values too'},
                'meta_data': {'created_at': 1596463434.0,
                              'created_by': u'cmkadmin'},
-               'tag_criticality': 'offline',
-               'tag_service': 'cmk'}})
+               'tag_criticality': 'test',
+               'tag_service': 'unknown'}})
