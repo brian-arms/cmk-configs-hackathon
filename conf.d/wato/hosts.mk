@@ -9,7 +9,7 @@ host_tags.update({'localhost': {'address_family': 'ip-v4-only',
                'ip-v4': 'ip-v4',
                'networking': 'lan',
                'piggyback': 'auto-piggyback',
-               'service': 'cmk',
+               'service': 'unknown',
                'site': 'cmk',
                'snmp_ds': 'no-snmp',
                'tcp': 'tcp'}})
@@ -23,4 +23,4 @@ host_attributes.update(
                'meta_data': {'created_at': 1596463434.0,
                              'created_by': u'cmkadmin'},
                'tag_criticality': 'critical',
-               'tag_service': 'cmk'}})
+               'tag_service': 'unknown'}})
