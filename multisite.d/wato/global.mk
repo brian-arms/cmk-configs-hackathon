@@ -3,5 +3,5 @@
 
 ui_theme = 'facelift'
 wato_use_git = True
-wato_pprint_config = True
+wato_pprint_config = False
 lock_on_logon_failures = 10
