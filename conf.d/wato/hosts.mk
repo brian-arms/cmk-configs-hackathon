@@ -14,7 +14,7 @@ host_tags.update({'briaarms-k8s-rook-1': {'address_family': 'ip-v4-only',
                          'tcp': 'tcp'},
  'briaarms-k8s-rook-2': {'address_family': 'ip-v4-only',
                          'agent': 'cmk-agent',
-                         'criticality': 'test',
+                         'criticality': 'critical',
                          'ip-v4': 'ip-v4',
                          'networking': 'lan',
                          'piggyback': 'auto-piggyback',
@@ -38,4 +38,4 @@ host_attributes.update(
                          'meta_data': {'created_at': 1596655235.0,
                                        'created_by': u'cmkadmin'},
                          'site': 'foo',
-                         'tag_criticality': 'test'}})
+                         'tag_criticality': 'critical'}})
