@@ -1,7 +1,7 @@
 # Created by WATO
 # encoding: utf-8
 
-all_hosts += ['briaarms-k8s-rook-1']
+all_hosts += ['briaarms-k8s-rook-1', 'briaarms-k8s-rook-2']
 
 host_tags.update({'briaarms-k8s-rook-1': {'address_family': 'ip-v4-only',
                          'agent': 'cmk-agent',
