@@ -60,6 +60,15 @@ host_contactgroups = [
 ] + host_contactgroups
 
 
+globals().setdefault('ignored_services', [])
+
+ignored_services = [
+{'condition': {'host_name': ['briaarms-k8s-rook-2'],
+               'service_description': [{'$regex': u'NTP\\ Time$'}]},
+ 'value': True},
+] + ignored_services
+
+
 globals().setdefault('inventory_df_rules', [])
 
 inventory_df_rules = [
