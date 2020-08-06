@@ -1,3 +1,8 @@
-# Written by Check_MK store (2020-08-05 18:47:03)
+# Written by Check_MK store (2020-08-06 04:51:37)
 
-contacts.update({u'cmkadmin': {'alias': u'cmkadmin'}, 'automation': {'alias': u'Check_MK Automation - used for calling web services', 'notifications_enabled': False, 'pager': '', 'email': '', 'contactgroups': []}})
+contacts.update({u'automation': {'alias': u'Check_MK Automation - used for calling web services',
+                 'contactgroups': [],
+                 'email': u'',
+                 'notifications_enabled': False,
+                 'pager': ''},
+ u'cmkadmin': {'alias': u'cmkadmin', 'disable_notifications': {}}})
