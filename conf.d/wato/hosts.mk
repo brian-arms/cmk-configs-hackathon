@@ -22,6 +22,7 @@ host_tags.update({'briaarms-k8s-rook-1': {'address_family': 'ip-v4-only',
                          'snmp_ds': 'no-snmp',
                          'tcp': 'tcp'}})
 
+
 host_labels.update({'briaarms-k8s-rook-2': {u'app': u'k8s'}})
 
 # Explicit IPv4 addresses
