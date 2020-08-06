@@ -14,7 +14,7 @@ host_tags.update({'briaarms-k8s-rook-1': {'address_family': 'ip-v4-only',
                          'tcp': 'tcp'},
  'briaarms-k8s-rook-2': {'address_family': 'ip-v4-only',
                          'agent': 'cmk-agent',
-                         'criticality': 'critical',
+                         'criticality': 'prod',
                          'ip-v4': 'ip-v4',
                          'networking': 'lan',
                          'piggyback': 'auto-piggyback',
@@ -22,7 +22,7 @@ host_tags.update({'briaarms-k8s-rook-1': {'address_family': 'ip-v4-only',
                          'snmp_ds': 'no-snmp',
                          'tcp': 'tcp'}})
 
-host_labels.update({'briaarms-k8s-rook-2': {u'app': u'other'}})
+host_labels.update({'briaarms-k8s-rook-2': {u'app': u'k8s'}})
 
 # Explicit IPv4 addresses
 ipaddresses.update({'briaarms-k8s-rook-1': '64.102.178.144',
@@ -34,8 +34,8 @@ host_attributes.update(
                          'meta_data': {'created_at': 1596655235.0,
                                        'created_by': u'cmkadmin'}},
  'briaarms-k8s-rook-2': {'ipaddress': '64.102.189.80',
-                         'labels': {u'app': u'other'},
+                         'labels': {u'app': u'k8s'},
                          'meta_data': {'created_at': 1596655235.0,
                                        'created_by': u'cmkadmin'},
                          'site': 'foo',
-                         'tag_criticality': 'critical'}})
+                         'tag_criticality': 'prod'}})

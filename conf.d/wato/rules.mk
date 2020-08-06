@@ -14,6 +14,10 @@ active_checks['http'] = [
  'value': {'host': {'address': 'engci-cloud-rtp.cisco.com'},
            'mode': ('url', {'ssl': 'auto'}),
            'name': u'engci-cloud-rtp.cisco.com'}},
+{'condition': {'host_tags': {'criticality': 'test'}},
+ 'value': {'host': {'address': 'engci-cloud-rch.cisco.com'},
+           'mode': ('url', {'ssl': 'auto'}),
+           'name': u'engci-cloud-rch.cisco.com'}},
 ] + active_checks['http']
 
 
